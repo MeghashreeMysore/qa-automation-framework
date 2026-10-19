@@ -1,6 +1,10 @@
 - Done: Built a Person class with private fields, a constructor, getters, introduce(), isAdult(), haveBirthday(), toString() and an age check that throws IllegalArgumentException. Compiled with javac and ran with java.
+- Done (Learn): Checked Java, Maven and Git versions.
+- Done (Build): Created the GitHub repo qa-automation-framework, cloned it, added the week1-java-practice folder, and ran git status (on branch main).
+
 - Learned: A class is a blueprint and an object is made from it. Fields are what it has, methods are what it does. Private fields can only be reached through the class's own methods. toString() with @Override replaces the default text printed for an object. A method that returns a value is different from one that prints. throw stops the program unless try/catch handles it.
-- Stuck on: @Override error (spelling of toString), why java PersonDemo.java failed (it looks at the first class), and what private actually protects. Why the constructor takes parameters but methods like isAdult() don't. Constructor needs the starting values passed in to create the object. Methods use the object's own fields, so they only need parameters for new information (like setAge)
+
+- Stuck on: Why the constructor takes parameters but methods like isAdult() don't (the constructor needs starting values passed in, methods use the fields the object already has). Why java PersonDemo.java failed (it runs the first class in the file, so use javac then java). The @Override error (spelling of toString). Why this.age < 0 never caught -5 (the field is still 0 at that point, the parameter holds the value), found with a negative test.
 
 Constructor: parameters are needed
 
