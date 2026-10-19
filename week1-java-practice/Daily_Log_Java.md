@@ -21,3 +21,5 @@ java
 public boolean isAdult(){
     return age >= 18;   // reads the object's own field
 }
+
+New creates object and values will be defaulted to 0, null. when the assignment of parameter to field happens values are assigned to the object and the reference variable is pointing to that object.
